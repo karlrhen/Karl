@@ -1,0 +1,156 @@
+.topbar
+{
+    padding: 0px;
+    padding-bottom: 0px;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background: none repeat scroll 0% 0% #FFF;
+    line-height: 50px;
+    color: #9879bf;
+    text-transform: uppercase; /* Does it look better uppercase or lowercase?*/
+    font-weight: 500px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    z-index: 1000;
+    padding: 0px;
+}
+
+.topbar ul
+{
+    list-style-type: none;
+    margin: auto;
+}
+
+.topbar li 
+{
+    color: #9879bf; /* black for now */
+    text-decoration: none; /* removes the underline */
+    padding: 0px; 
+    display: inline;
+    float: left;
+    margin-right: 55px;
+}
+
+.topbar a 
+{
+    display: block;
+    padding: 0px;
+    margin-right: 5px;
+    margin-top: 0px;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+
+.resume_tag a 
+{
+    display: block;
+    padding: 0px;
+    margin-right: 5px;
+    margin-top: 0px;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+
+.topbar a:hover
+{
+    background-color: #eaeded;
+    color: white;
+}
+
+.topbar a:visited, a:link, a:focus, a:active
+{
+    color: #9879bf;
+}
+
+body
+{
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    overflow-x: scroll;
+    /*overflow-y: hidden;*/
+}
+
+h1
+{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-top: 200px;
+    font-size: 60px;
+    text-align: center;
+    color: #9879bf;
+    font-family: "Lato", sans-serif;
+}
+
+.greetings
+{
+    padding-left: 50px;l.
+}
+
+.buzz_words
+{
+    color: gold;
+    font-weight: 900px;
+    font-family: "Lato", sans-serif;
+}
+
+.brief_description
+{
+    color: lightgray;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+    display: block;
+    padding-top: 50px;
+    text-align: justify;
+    width: 50%;
+}
+
+.profile_image
+{
+    height: 450px;
+    width: 450px;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.about_me
+{
+    color: lightgray;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    width: 50%;
+    font-weight: lighter;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+    display: block;
+    padding-top: 50px;
+    text-align: justify; 
+}
+
+.resume
+{
+    text-decoration: none; 
+    color: gold;
+}
+
+
+*
+{
+    margin: 0px;
+    padding-right: 5x;
+}
